@@ -100,7 +100,7 @@ a{
     position: relative;
 
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     max-height: fit-content;
 
     background: black;
@@ -187,26 +187,34 @@ a{
     font-family:'Courier New', Courier, monospace;
 }
 
-@media screen and (width < 600px) {
+.big-img{
+    position: relative;
+
+    width: 80%;
+    height: 50vh;
+
+    margin-left: 10%;
+}
+
+@media screen and (orientation: portrait) {
     .logo{
         position: relative;
     
-        width: 80vw;
-        height: 80vw;
+        width: 70vw;
+        height: 70vw;
     
         position: relative;
     
-        margin-left: 10vw;
+        margin-left: 15vw;
     }
 
     .main-h1{
-        font-size: 12vh;
-    }
+        font-size: 6vh;    }
 
     .menu-el{
-        font-size: 5vh;
+        font-size: 3vh;
     } .menu-el:hover{
-        font-size: 8vh;
+        font-size: 4vh;
     }
 
     .portrait{
@@ -225,11 +233,11 @@ a{
     } 
 
     .a-h1{
-        font-size: 12vh;
+        font-size: 6vh;
     }
 
     .a-text{
-        font-size: 8vh;
+        font-size: 3vh;
     }
     
 }
