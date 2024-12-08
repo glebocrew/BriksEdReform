@@ -200,13 +200,13 @@ a{
     }
 
     .main-h1{
-        font-size: 5vh;
+        font-size: 12vh;
     }
 
     .menu-el{
-        font-size: 3vh;
+        font-size: 5vh;
     } .menu-el:hover{
-        font-size: 4vh;
+        font-size: 8vh;
     }
 
     .portrait{
@@ -225,11 +225,11 @@ a{
     } 
 
     .a-h1{
-        font-size: 6vh;
+        font-size: 12vh;
     }
 
     .a-text{
-        font-size: 3vh;
+        font-size: 8vh;
     }
     
 }
